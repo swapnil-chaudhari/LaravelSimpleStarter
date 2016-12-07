@@ -1,0 +1,16 @@
+/vendor
+/node_modules
+/public/storage
+Homestead.yaml
+Homestead.json
+.env
+/.vagrant
+Vagrantfile
+/nbproject
+composer.lock
+<<<<<<< HEAD
+public/uploads
+npm-debug.log
+=======
+public/uploads/*
+>>>>>>> e271175be67b74faed2eb5f3c586888c51a9b207

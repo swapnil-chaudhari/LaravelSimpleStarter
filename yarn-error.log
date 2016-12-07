@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  ~/.composer/vendor/bin:/home/vagrant/.rbenv/plugins/ruby-build/bin:/home/vagrant/.rbenv/shims:/home/vagrant/.rbenv/bin:/home/vagrant/.rbenv/plugins/ruby-build/bin:/home/vagrant/.rbenv/shims:/home/vagrant/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Yarn version: 
+  0.16.1
+
+Node version: 
+  6.7.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "prod": "gulp --production",
+      "dev": "gulp watch"
+    },
+    "devDependencies": {
+      "bootstrap-sass": "^3.3.7",
+      "gulp": "^3.9.1",
+      "jquery": "^3.1.0",
+      "laravel-elixir": "^6.0.0-11",
+      "laravel-elixir-vue-2": "^0.2.0",
+      "laravel-elixir-webpack-official": "^1.0.2",
+      "lodash": "^4.16.2",
+      "vue": "^2.0.1",
+      "vue-resource": "^1.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+bower manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EPROTO: protocol error, symlink '../../../acorn/bin/acorn' -> '/var/www/boilerplate-laravel/node_modules/acorn-jsx/node_modules/.bin/acorn'
+      at Error (native)
