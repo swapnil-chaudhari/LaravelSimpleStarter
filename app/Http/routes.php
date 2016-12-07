@@ -19,4 +19,5 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
+Routes::get('/items', 'ItemController@index');
 
